@@ -13,7 +13,7 @@ var resultCont = document.getElementById('result');
 var start = document.getElementById("start-btn");
 var timer = document.getElementById("time");
 
-var timerCounter = 50;
+var timerCounter = 40;
 var timerID 
 
 var questionIndex = 0;

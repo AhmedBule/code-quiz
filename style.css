@@ -1,4 +1,4 @@
-body {
+.body {
     background-color:lightcoral;
     justify-content: center;
     
@@ -9,14 +9,14 @@ body {
 
 }
 
-.container {
+.quizcontainer {
     height: 330px;
 	width: 1000px;
 	position: absolute;
 	top:50%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
-	background: rgba(255, 255, 255, 0.5);
+	background-color: hotpink;
 	padding: 20px;
 	border: 1px solid #08038C;
 	box-shadow: 0 0 8px 3px #fff;
@@ -32,7 +32,7 @@ body {
         color: #000000;
         border-radius: 20px;
     }
-.next-btn{
+.start-btn{
     float: right;
     background-color: darkcyan;
 
@@ -53,6 +53,10 @@ body {
 .next-btn:hover{
 	background: #08038C;
 	color: #f6f6f6;
+}
+
+.option1{
+    background-color: hotpink;
 }
 
 
