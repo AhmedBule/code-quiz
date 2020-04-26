@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  
+</head>
+<body>
+	<header>
+		<h1>Code Quiz</h1>
+	</header>
+	<div class="jumbotron">  
+		<ol>
+			<li>Instructions</li>
+		</ol>
+		<button id="start-btn"> Start</button>
+		<div class="timer"><h4>Timer: <span id="time"></spanid></h4></div>
+	</div>
+    <div id="quizContainer" class="container">
+			<div class="title">Code Quiz</div>
+			
+			<div id="question" class="question"></div>
+			<button id="option1" data-value="1"></button>
+			<button id="option2" data-value="2"></button>
+			<button id="option3" data-value="3"></button>
+			<button id="option4" data-value="4"></button>
+			
+     </div>
+		<div id="result" class="container result" style="display:none;">
+        </div>
+		<script src="questions.js"></script>
+		<script defer src="script.js"></script>
+</body>
+</html>
