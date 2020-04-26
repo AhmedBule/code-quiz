@@ -1,5 +1,5 @@
-.body {
-    background-color:lightcoral;
+body {
+    background-color:lightblue;
     justify-content: center;
     
 }
@@ -9,7 +9,7 @@
 
 }
 
-.quizcontainer {
+.container {
     height: 330px;
 	width: 1000px;
 	position: absolute;
